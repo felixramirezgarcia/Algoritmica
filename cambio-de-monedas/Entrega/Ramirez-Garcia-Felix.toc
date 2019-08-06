@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Soluci\IeC {\'o}n con monedas ilimitadas}{3}{section.2}% 
+\contentsline {section}{\numberline {3}Soluci\IeC {\'o}n con monedas limitadas}{7}{section.3}% 

@@ -1,0 +1,1 @@
+Estudiad cómo habría que modificar el planteamiento del problema de dar cambio resuelto por programación dinámica para el caso en que el número de monedas de cada tipo no sea ilimitado.

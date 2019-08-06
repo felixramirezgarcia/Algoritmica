@@ -1,0 +1,30 @@
+
+
+*******************************************************************************
+Thu Mar 21 18:31:14 2019
+
+
+FIT:    data read from "salidagenera-unimodal-usascript.dat"
+        format = z
+        #datapoints = 100
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x)=b0*x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b0           
+   0 2.3693916123e+01   0.00e+00  7.19e-01    1.235902e-09
+   1 2.3693916123e+01   0.00e+00  7.19e-02    1.235902e-09
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 23.6939
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 99
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.489216
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.239332
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b0              = 1.2359e-09       +/- 8.41e-11     (6.805%)

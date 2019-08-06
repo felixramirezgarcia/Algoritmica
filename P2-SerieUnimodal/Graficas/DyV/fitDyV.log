@@ -1,0 +1,30 @@
+
+
+*******************************************************************************
+Thu Mar 21 19:21:20 2019
+
+
+FIT:    data read from "salidagenera-unimodal-DyV.dat"
+        format = z
+        #datapoints = 100
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a0*log10(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 7.3772022283e+03   0.00e+00  8.59e+00    1.000000e+00
+   4 8.7555504693e-12  -8.26e-05  8.59e-04    3.656436e-07
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8.75555e-12
+rel. change during last iteration : -8.25805e-10
+
+degrees of freedom    (FIT_NDF)                        : 99
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.97388e-07
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.84399e-14
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 3.65644e-07      +/- 3.462e-09    (0.9469%)

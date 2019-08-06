@@ -1,0 +1,11 @@
+﻿Implementad, para el problema de la suma de subconjuntos, 
+una solución fuerza bruta y dos soluciones con backtracking: 
+una que no guarde datos adicionales (y tarde O(n) en chequear la 
+factibilidad) 
+y otra que guarde más datos y consiga chequear la factibilidad en 
+tiempo O(1). 
+Haced un estudio empírico de la eficiencia.
+
+
+
+file:///C:/Users/felix/Downloads/Backtrackingv1.4.pdf

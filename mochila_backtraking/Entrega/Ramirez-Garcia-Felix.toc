@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}{section.1}% 
+\contentsline {section}{\numberline {2}Soluci\IeC {\'o}n fuerza bruta}{3}{section.2}% 
+\contentsline {section}{\numberline {3}Soluci\IeC {\'o}n con backtraking}{3}{section.3}% 
+\contentsline {section}{\numberline {4}Estudio emp\IeC {\'\i }rico de la eficiencia}{3}{section.4}% 

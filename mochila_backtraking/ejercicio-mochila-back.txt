@@ -1,0 +1,9 @@
+﻿Implementad, para el problema de la mochila 0/1, 
+una solución fuerza bruta y tres soluciones con backtracking: 
+una que solamente utilice las restricciones implícitas (que no se sobrepase el peso máximo de la mochila) para podar, 
+otra que además emplee el cálculo de cotas (utilizando el algoritmo greedy para la mochila fraccional para los elementos que quedan por incluir en la mochila 
+para el cálculo de la cota local), 
+y una tercera versión que emplee la cota (menos precisa pero más rápida de calcular) comentada en clase pero que guarde datos adicionales y consiga chequear la 
+factibilidad en tiempo O(1). 
+
+Haced un estudio empírico de la eficiencia.

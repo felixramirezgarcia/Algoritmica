@@ -1,0 +1,36 @@
+
+
+*******************************************************************************
+Thu Mar  7 17:59:10 2019
+
+
+FIT:    data read from "salidaheapsort.dat"
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=b0*x*log10(b1*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   b0            b1           
+   0 2.9145655470e+17   0.00e+00  7.65e+07    1.000000e+00   1.000000e+00
+   5 2.7633805676e-01  -1.25e-07  7.65e+02    1.259051e-08   9.415971e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.276338
+rel. change during last iteration : -1.25109e-12
+
+degrees of freedom    (FIT_NDF)                        : 23
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.109612
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0120147
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+b0              = 1.25905e-08      +/- 1.019e-08    (80.97%)
+b1              = 0.941597         +/- 12.71        (1350%)
+
+correlation matrix of the fit parameters:
+                b0     b1     
+b0              1.000 
+b1             -1.000  1.000 

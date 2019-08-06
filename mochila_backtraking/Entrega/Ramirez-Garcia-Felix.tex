@@ -1,0 +1,139 @@
+\input{preambuloSimple.tex}
+\usepackage{url}
+
+\title{	
+	\normalfont \normalsize
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width=0.3\textwidth]{./imagenes/1}
+	\end{figure}
+	\textsc{\textbf{Algoritmica} \\ Grado en Ingeniería Informática \\ 
+	Curso 2018-2019} \\ [25pt] 
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width=0.15\textwidth]{./imagenes/2}
+	\end{figure}
+	\horrule{0.5pt} \\[0.4cm]
+	\huge Ejercicio Propuesto. \\
+	\huge Mochila 0-1
+	\\ 
+	\horrule{2pt} \\[0.5cm] 
+}
+\author{Félix Ramírez García  \\
+\href{mailto:felixramirezgarcia@correo.ugr.es}{felixramirezgarcia@correo.ugr.es}}
+\date{\normalsize\today} 
+
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+	
+	\maketitle % Muestra el Título
+	
+	\newpage %inserta un salto de página
+	
+	\tableofcontents % para generar el índice de contenidos
+	
+	\listoffigures % para generar índice de imágenes.
+	
+	\listoftables % para generar índice de tablas.
+	
+	\newpage
+	
+	%-----------------------------------------------------------------------
+	%							Introduccion
+	%----------------------------------------------------------------------	
+	\section[Introducción]{Introducción}
+
+	 Supongamos que tenemos n distintos tipos de ítems, que van de 1 a n. De cada tipo de ítem se tiene solamente un ítem disponible. \\
+	
+	Cada tipo de ítem i tiene un beneficio asociado dado por vi y un peso (o volumen) wi. Usualmente se asume que el beneficio y el peso no son negativos. Para simplificar la representación, se suele asumir que los ítems están listados en orden creciente según el peso (o volumen). \\
+	
+	Por otro lado se tiene una mochila, donde se pueden introducir los ítems, que soporta un peso máximo (o volumen máximo) W. \\
+	
+	El problema consiste en meter en la mochila ítems de tal forma que se maximice el valor de los ítems que contiene y siempre que no se supere el peso (o volumen) máximo que puede soportar la misma. La solución al problema vendrá dado por la secuencia de variables x1, x2, ..., xn donde el valor de xi (0-1) indica si existe en la mochila el ítem del tipo i. \\
+	
+	%-----------------------------------------------------------------------
+	%							Solucion fuerza bruta
+	%----------------------------------------------------------------------	
+	\section[Solución fuerza bruta]{Solución fuerza bruta}
+
+	
+	\lstset{language=C}
+	\begin{lstlisting}[frame=single]
+
+	\end{lstlisting} 
+	
+	%-----------------------------------------------------------------------
+	%							Solucion con backtraking
+	%----------------------------------------------------------------------	
+	\section[Solución con backtraking]{Solución con backtraking}
+
+	
+	\lstset{language=C}
+	\begin{lstlisting}[frame=single]
+
+	\end{lstlisting} 
+
+	%-----------------------------------------------------------------------
+	%							Estudio empirico de la eficiencia
+	%----------------------------------------------------------------------	
+	\section[Estudio empírico de la eficiencia]{Estudio empírico de la eficiencia}
+		
+	Tras la ejecución del programa de fuerza bruta se han obtenido los siguientes resultados, donde la primera columna es el tamaño y la segunda el tiempo:\\
+	
+	\lstset{language=C}
+	\begin{lstlisting}[frame=single]
+
+	\end{lstlisting} 
+	
+	La gráfica obtenida con las salidas de fuerza bruta se muestra en la figura xx: \\
+	
+		%\begin{figure}[htb]
+		%	\centering
+		%	\includegraphics[width=0.8\textwidth]{./imagenes/fuerza_bruta}
+		%	\caption{Fuerza bruta} \label{fig:1}
+		%\end{figure}
+	
+	Tras la ejecución del programa con backtraking se han obtenido los siguientes resultados, donde la primera columna es el tamaño y la segunda el tiempo: \\
+	
+	\lstset{language=C}
+	\begin{lstlisting}[frame=single]
+
+	\end{lstlisting} 
+
+	La gráfica obtenida con las salidas de backtraking se muestra en la figura 4.2: \\
+
+	%\begin{figure}[htb]
+	%	\centering
+	%	\includegraphics[width=0.8\textwidth]{./imagenes/backtraking}
+	%	\caption{Fuerza bruta} \label{fig:1}
+	%\end{figure}
+	
+
+
+	%-----------------------------------------------------------------------
+	%							BIBLIOGRAFIA
+	%-----------------------------------------------------------------------
+	% Referencia a bibliografia			En \cite{Baz}
+	% Referencia a figura				La figura (\ref{fig:1})
+	% Espacio entre lineas				\vspace{0.06in}
+	% Figura con comentario al pie
+	%\begin{figure}[htb]
+	%	\centering
+	%	\includegraphics[width=0.4\textwidth]{./imagenes/1}
+	%	\caption{Universidad de Granada.} \label{fig:1}
+	%\end{figure}
+	%\begin{thebibliography}{99}
+	%	\bibitem{Baz} 
+	%	\textsc{Bazaraa, M.S., J.J. Jarvis}
+	%	\textit{Programacuib}.
+	%	\newline
+	%	\url{https://www.google.es}	
+	%\end{thebibliography}
+
+	
+
+
+\end{document}

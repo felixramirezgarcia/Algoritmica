@@ -1,0 +1,30 @@
+
+
+*******************************************************************************
+Thu Mar  7 18:00:26 2019
+
+
+FIT:    data read from 'salidafibonacci.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*((1+sqrt(5))/2)**x
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 1.2354941342e-03   0.00e+00  5.93e+00    6.132052e-10
+   1 1.2354941342e-03   0.00e+00  5.93e+03    6.132052e-10
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00123549
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 25
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00702992
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.94198e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 6.13205e-10      +/- 1.427e-13    (0.02327%)

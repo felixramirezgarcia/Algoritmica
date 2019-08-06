@@ -1,0 +1,38 @@
+
+
+*******************************************************************************
+Thu Mar  7 17:36:57 2019
+
+
+FIT:    data read from 'salidaburbuja.dat'
+        format = z
+        #datapoints = 25
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=a0*x*x+a1*x+a2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1            a2           
+   0 2.1538562640e+18   0.00e+00  1.69e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 2.4143125811e-04  -6.19e-04  1.69e-04    6.750945e-10  -1.569066e-06   2.769525e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.000241431
+rel. change during last iteration : -6.19472e-09
+
+degrees of freedom    (FIT_NDF)                        : 22
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00331273
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.09741e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 6.75095e-10      +/- 1.428e-11    (2.115%)
+a1              = -1.56907e-06     +/- 3.825e-07    (24.38%)
+a2              = 0.00276952       +/- 0.002158     (77.92%)
+
+correlation matrix of the fit parameters:
+                a0     a1     a2     
+a0              1.000 
+a1             -0.971  1.000 
+a2              0.774 -0.884  1.000 
